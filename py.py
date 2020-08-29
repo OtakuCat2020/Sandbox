@@ -1,7 +1,11 @@
 print("HelloPython!")
 
-print("我的时薪是",4500/(8*30*5/7))
+name = input("输入我的名字。")
 
-print("深圳给的时薪是",5000/(9*30*5.5/7))
+if name=="李辰鹏" :
+    print("Correct!")
+else:
+    print(name+" is not my name,my name is \"李辰鹏\"")
 
-print("假如去深圳，")
+print('''use r\'**\' to
+... avoid transfrom''')
